@@ -34,6 +34,16 @@ public class AppTest
     public void testApp()
     {
     	System.out.println( "Test Running" );
-    	assertTrue( false );
+    	assertTrue( true );
     }
+    
+    public void testSum() 
+    {
+    	App app = new App();
+    	System.out.println( "Sum Test Running" );
+    	assertEquals( 10, app.sum(5,5) );
+    }
+    	
+    
+    
 }
